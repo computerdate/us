@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    cursor: url("https://downloads.totallyfreecursors.com/cursor_files/mouseclick.cur"), url("https://downloads.totallyfreecursors.com/thumbnails/mouse-click.gif"), auto; 
+    /*cursor: url("https://downloads.totallyfreecursors.com/cursor_files/mouseclick.cur"), url("https://downloads.totallyfreecursors.com/thumbnails/mouse-click.gif"), auto; */
     cursor: auto;
     -webkit-font-smoothing: antialiased;
     -webkit-user-select: none;
@@ -83,50 +83,6 @@ a:active{
     text-align: left;
   }
   
-  .hover {
-    pointer-events: none;
-    transform: translate(48px, -2px);
-    position: absolute; 
-  }
-  
-  .dani_jr, .sebas_jr, .ef_diagrama, .ef_sala, .presentness_diagrama, .presentness_web, .presentness_sala {
-    max-width: 50%;
-    max-height: 60%;
-    display: none;
-  }
-  
-  .dani:hover+.dani_jr {
-    display: block;
-  }
-
-  .sebas:hover+.sebas_jr {
-    display: block;
-  }
-
-  .ef:hover+.ef_diagrama {
-    display: block;
-  }
-
-  .ef_stafe:hover+.ef_sala {
-    display: block;
-  }
-
-  .presentness:hover+.presentness_diagrama {
-    display: block;
-  }
-
-  .presentness_wrong:hover+.presentness_web {
-    display: block;
-  }
-
-  .presentness_estacionterrena:hover+.presentness_sala {
-    display: block;
-  }
-  
-  
-  .hidden {
-    display: none;
-  }
   
   .wrapper {
     height: 100vh;
@@ -134,6 +90,7 @@ a:active{
   
   footer {
     position: fixed;
+    text-align: right;
     float: right;
     padding-top:  1px;
     padding-left:  3px;
@@ -149,3 +106,22 @@ a:active{
 
 
     }
+
+    .row {
+  
+        position: inherit;
+        float: right;
+        /*width: 33.33%;*/
+        background-color: none;
+        padding-top:  1px;
+        padding-left:  3px;
+        padding-right:  3px;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        }
+          
+          
+          .column {
+            width: 100%;
+          }
